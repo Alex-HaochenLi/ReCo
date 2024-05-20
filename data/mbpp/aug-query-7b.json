@@ -1,0 +1,1 @@
+{"train": [], "test": [" def sort_matrix(matrix):\n    return sorted(matrix, key=sum)", " def sort_matrix(matrix):\n    return sorted(matrix, key=sum)", " def sort_matrix_by_sum(matrix):\n    return sorted(matrix, key=sum)", " def sort_matrix(matrix):\n    return sorted(matrix, key=sum)"]}
