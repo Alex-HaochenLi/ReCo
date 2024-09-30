@@ -275,7 +275,7 @@ def cal_idf(hyps, refs, phase, lang):
     for value in count.values():
         total += value
     for key in count.keys():
-        count[key] = math.log(augaug_total / count[key], math.e)
+        count[key] = math.log(total / count[key], math.e)
 
     return count
 
